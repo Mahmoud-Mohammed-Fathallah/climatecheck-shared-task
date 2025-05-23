@@ -14,7 +14,6 @@ model_path = "NovaSearch/stella_en_400M_v5"
 train_dataset_path = "Data/good_split/train"
 valid_dataset_path = "Data/good_split/valid"
 out_dir = f"stella_en_400M_v5_lr_{learning_rate}"
-syn_data_path = "Data/synthetic/gemini-3claims-all-v2.json"
 
 train_data = datasets.load_from_disk(train_dataset_path)
 valid_data = datasets.load_from_disk(valid_dataset_path)
