@@ -17,7 +17,6 @@ model_path = "BAAI/bge-reranker-v2-m3"
 train_dataset_path = "/Data/split/train"
 valid_dataset_path = "Data/split/valid"
 out_dir = f"/bge-reranker-v2-m3_lr_{learning_rate}"
-syn_data_path = "/home/mahmoud.fathallah/ClimateCheck/Data/synthetic/gemini-3claims-all-v2.json"
 
 train_data = datasets.load_from_disk(train_dataset_path)
 valid_data = datasets.load_from_disk(valid_dataset_path)
